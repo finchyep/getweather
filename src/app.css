@@ -1,0 +1,15 @@
+* {
+  font-family: sans-serif;
+}
+
+.app {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 600px;
+}
+
+/*.list {
+  display: flex;
+  align-items: center;
+}
+*/

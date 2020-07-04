@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GetWeather</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="app">
+      <h1>GetWeather</h1>
+      <div class="">
+
+        <form onsubmit="addCity(); return false" class="" action="" method="">
+          <input  class="form-control" id="docInp" type="text" value=""><br>
+          <button class="btn btn-primary" onclick="addCity()" id="docBtn" type="button" name="button">Узнать погоду</button>
+        </form>
+        <br>
+
+        <div class="">
+          <div class="list">
+            <h2 id="region"></h2>
+          </div>
+          <div class="list">
+            <h4 id="temp"></h4>
+          </div>
+          <div class="list">
+            <h4 id="country"></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js" charset="utf-8">
+    </script>
+  </body>
+</html>
